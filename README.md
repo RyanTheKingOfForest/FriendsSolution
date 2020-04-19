@@ -13,3 +13,5 @@ Aplicativo de Catalogo virtual desenvolvido para auxiliar as MPE's (Médias e Pe
 **Descrição de execução do código:** 
 
 Para executar o projeto desenvolvido pela equipe Friends Solution é necessário acessar o arquivo FriendsSolution.sln e executar com o Visual Studio instalado.
+** Observações **
+Projeto no estagio inicial de Desenvolvimento.
