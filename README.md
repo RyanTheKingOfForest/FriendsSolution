@@ -18,4 +18,4 @@ Projeto no estagio inicial de Desenvolvimento.
 ** Observações **
 A equipe Friends Solutions estão no estágio inicial do desenvolvimento do projeto funcional. Iniciamos a primeira versão do software produzindo as telas de interação com o usuário e ainda não temos uma conversação do sistema com ele mesmo ou recursos externos, porém estamos trabalhando para desenvolver uma plataforma que realize as integrações necessárias e entregue ao usuário o que foi prometido.
 
-** @ARGOLO **
+@ARGOLO
