@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="FriendsSolution.CatalogoPage"
+             BackgroundColor="Orange">
+  <ContentView.Content>
+     
+            <Grid RowSpacing="0">
+                <Grid.RowDefinitions>
+                <RowDefinition Height="75"/>
+                <RowDefinition Height="75"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="25"/>
+            </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0,10,0,0" Grid.Row="0" Grid.ColumnSpan="3">
+                <Image Source="C:\Users\Victor.mustafa\Desktop\FriendsSolution\FriendsSolution\FriendsSolution.Android\Resources\drawable\logo3.png"  
+                       HeightRequest="100" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Image>
+            </StackLayout>
+                
+            <StackLayout Orientation="Horizontal" Grid.Row="1" Grid.ColumnSpan="3" BackgroundColor="#E5E5E5">
+                <ImageButton Source="C:\Users\Victor.mustafa\Desktop\FriendsSolution\FriendsSolution\FriendsSolution.Android\Resources\drawable\seta.png" Grid.Column="0" HorizontalOptions="CenterAndExpand" HeightRequest="30" />
+                <ImageButton Source="C:\Users\Victor.mustafa\Desktop\FriendsSolution\FriendsSolution\FriendsSolution.Android\Resources\drawable\chat.png" Grid.Column="1" HorizontalOptions="CenterAndExpand" HeightRequest="30" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Grid.Row="2" Grid.ColumnSpan="3" BackgroundColor="#E5E5E5">
+                <BoxView BackgroundColor="#E5E5E5"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Grid.Row="3" Grid.ColumnSpan="3">
+                <ImageButton Source="C:\Users\Victor.mustafa\Desktop\FriendsSolution\FriendsSolution\FriendsSolution.Android\Resources\drawable\perfil.png" Grid.Column="0" HorizontalOptions="CenterAndExpand" HeightRequest="30" />
+                <ImageButton Source="C:\Users\Victor.mustafa\Desktop\FriendsSolution\FriendsSolution\FriendsSolution.Android\Resources\drawable\home.png" Grid.Column="1" HorizontalOptions="CenterAndExpand" HeightRequest="30" />
+                <ImageButton Source="C:\Users\Victor.mustafa\Desktop\FriendsSolution\FriendsSolution\FriendsSolution.Android\Resources\drawable\cupom.png" Grid.Column="2" HorizontalOptions="CenterAndExpand" HeightRequest="30" />
+            </StackLayout>
+                
+            <StackLayout Orientation="Horizontal" Grid.Row="4" Grid.ColumnSpan="3">
+                <Label Text="Perfil" Grid.Column="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                <Label Text="Home" Grid.Column="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                <Label Text="Cupom" Grid.Column="2" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+            </StackLayout>
+
+        </Grid>
+        </ContentView.Content>
+</ContentView>
